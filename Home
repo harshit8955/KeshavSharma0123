@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="icon"href="static/images/icon/tennis.png" type="image/png">
+    
+</head>
+<body>
+    <nav id="nav">
+        <ol><a href="http://127.0.0.1:5500/static/Home.html" target="_main"><img src="/Roughthings/coding.png" alt="Logo" class="logo" id="logo"></a>
+        <a href="http://127.0.0.1:5500/static/Home.html" target="_main"><h1>Home</h1></a>
+        <a href="http://127.0.0.1:5500/static/login.html" target="_main" ><button>Login</button></a>
+        <a href="http://127.0.0.1:5500/static/signup.html" target="_main"><button>Sign Up</button></a></ol>
+    </nav>
+    
+    <div class="Product-slider">
+        <div class="products"></div>
+            <div class="product" data-id="1">
+                <img src="m1.jpg" alt="Product 1" class="product-img">
+                <h2 class="product-title">Product 1</h2>
+                <p class="product-price">$19.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2">
+                <img src="m1.jpg" alt="Product 2" class="product-img">
+                <h2 class="product-title">Product 2</h2>
+                <p class="product-price">$29.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="3">
+                <img src="m1.jpg" alt="Product 3" class="product-img">
+                <h2 class="product-title">Product 3</h2>
+                <p class="product-price">$39.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        </div>
+        <div class=""></div>
+        
+    </div>
+    
+    <footer id="footer">
+        <p>&copy; 2025 Home. All rights reserved by Harshit Sharma.</p>
+    
+</body>
+</html>
